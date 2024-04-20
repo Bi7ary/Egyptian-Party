@@ -1,0 +1,101 @@
+.main-section{
+    height: 90vh;
+    background-image: linear-gradient(rgb(255,0,0,0.4),rgb(255,0,0,0.4)),url(../images/events-heavenly-header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-section h1{
+    font-size: 60px;
+    font-weight: 500;
+}
+.singer-header{
+    background-color: RGBA(214, 46, 51, 0.6);
+    cursor: pointer;
+}
+.singer-footer{
+    background-color:RGB(204, 204, 204);
+}
+.counter{
+    background-image: linear-gradient(rgb(255,0,0,0.4),rgb(255,0,0,0.4)),url(../images/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
+    background-position: center;
+}
+.col-inner{
+    border: solid white 1px;
+}
+.logos span{
+    padding: 14px;
+    border: solid 1px black;
+    margin: 0 8px;
+    transition: all 0.3s;
+}
+.logos{
+    display: flex;
+}
+.logos span i{
+    transition: all 0.3s;
+    width: 15px;
+    height: 15px;
+    font-size: 15px;
+}
+.logos span:hover{
+    background-color: rgb(225, 0, 0);
+    cursor: pointer;
+}
+.logos span:hover i{
+    color: white;
+}
+textarea{
+    height: 200px;
+}
+.open-nav{
+    transition: left 1s;
+    left: 0;
+    top: 50%;
+    cursor: pointer;
+}
+nav a{
+    transition: all 0.3s;
+}
+nav a:hover{
+    color: rgb(209, 0, 0) !important;
+    
+}
+.side-nav{
+    left: -203.988px;
+    overflow: hidden;
+    z-index: 10000;
+}
+nav i {
+    cursor: pointer;
+    transition: all 0.3s;
+    color: white;
+}
+nav i:hover{
+    color: rgb(217, 1, 1);
+}
+.fa-xmark{
+    top: 20px;
+   right: -10px;
+}
+.singer-footer{
+    display: none;
+    padding: 30px;
+}
+#first-singer{
+    display: block;
+}
+@media (max-width:768px) {
+    .open-nav{
+      
+        
+        top: 50px;
+       
+    }
+    .counter{
+        background-size: 100% 120vh;
+        
+    }
+}
